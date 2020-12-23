@@ -134,6 +134,11 @@ a {
 .border {
   border: 1px solid var(--border);
 }
+.envelope-icon {
+  height: 16px;
+  width: 12px;
+  fill: currentColor;
+}
 
 /* Hero */
 .hero {
@@ -162,7 +167,7 @@ a {
       rgba(54, 56, 67, 0.4),
       rgba(54, 56, 67, 0.4)
     ),
-    url('../images/hero\ img.jpg');
+    url('../imagesoptimized/hero\ img.jpg');
   background-color: var(--hero-bgc-color);
   outline: 1px solid red;
 }

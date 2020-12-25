@@ -404,7 +404,6 @@ a {
   height: 20px;
   text-align: center;
   margin: 0;
-  fill: var(--network-color);
 }
 
 .master-flex {
@@ -416,6 +415,7 @@ a {
   width: 44px;
   height: 44px;
 
+  fill: var(--network-color);
   background-color: var(--white-hero-color);
   color: var(--network-color);
 }
@@ -445,6 +445,8 @@ a {
 
 .clients {
   display: flex;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -466,6 +468,7 @@ a {
   width: 170px;
   height: 90px;
 
+  fill: var(--network-color);
   border: 1px solid var(--network-color);
 }
 
@@ -478,8 +481,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  fill: var(--network-color);
 }
 
 .svg-flex:hover,
@@ -655,13 +656,11 @@ a {
 
 /* футер  - join */
 .footer-join {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 
   color: var(--white-hero-color);
   text-transform: uppercase;
@@ -670,7 +669,6 @@ a {
 .join-size {
   width: 20px;
   height: 20px;
-  fill: var(--secondary-bgc-white);
 }
 
 .join-master {
@@ -681,6 +679,7 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: var(--secondary-bgc-white);
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -698,7 +697,7 @@ a {
 
 .ttl-flex {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 
   margin-right: auto;
   padding: 0;
@@ -709,16 +708,16 @@ a {
   margin-right: 70px;
 }
 
+/* .join-flex {
+  display: flex;
+} */
+
 .join-margin {
   margin-right: 10px;
 }
 
 .join-margin:last-child {
   margin-right: 0;
-}
-
-.join-flex {
-  height: 80px;
 }
 
 /* geometry styles */

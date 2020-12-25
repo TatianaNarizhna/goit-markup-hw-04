@@ -602,11 +602,6 @@ a {
   border-left: 1px solid var(--portfolio-border);
 }
 
-/* сброс марджина в последнем списке - приложение(portfolio)- */
-/* .list .wo-mrg {
-  margin-bottom: 0;
-} */
-
 /* footer */
 .footer {
   background-color: var(--secondary-bgc-gray);
@@ -658,6 +653,7 @@ a {
   color: var(--accent-color);
 }
 
+/* футер  - join */
 .footer-join {
   padding: 0;
   margin: 0;

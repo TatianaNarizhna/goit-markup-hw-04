@@ -121,6 +121,11 @@ a {
   align-items: center;
 }
 
+.items > .address {
+  display: flex;
+  align-items: center;
+}
+
 .address-header .items {
   margin-right: 50px;
 }
@@ -183,6 +188,7 @@ a {
 }
 
 /* main container for all project */
+
 .hero .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -276,7 +282,7 @@ a {
 
 .antenna-size {
   height: 70px;
-  width: 270px;
+  width: 70px;
 }
 
 .vector {
@@ -293,7 +299,7 @@ a {
 
 .vector-size {
   height: 70px;
-  width: 270px;
+  width: 70px;
 }
 
 .diagram {
@@ -310,7 +316,7 @@ a {
 
 .diagram-size {
   height: 70px;
-  width: 270px;
+  width: 70px;
 }
 
 .Group {
@@ -327,7 +333,7 @@ a {
 
 .Group-size {
   height: 70px;
-  width: 270px;
+  width: 70px;
 }
 
 .all-advantage {
@@ -383,7 +389,7 @@ a {
 
 .team-content {
   padding-top: 30px;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 
   border-radius: 4px;
 }
@@ -415,20 +421,14 @@ a {
   width: 44px;
   height: 44px;
 
-  fill: var(--network-color);
   background-color: var(--white-hero-color);
-  color: var(--network-color);
+  fill: var(--network-color);
 }
 
 .master-flex:focus,
 .master-flex:hover {
   background-color: var(--accent-color);
-}
-
-.master-flex:hover .size-flex,
-.master-flex:focus .size-flex {
   fill: var(--secondary-bgc-white);
-  background-color: var(--accent-color);
 }
 
 .margin-flex {
@@ -475,22 +475,13 @@ a {
 .clients-flex:hover,
 .clients-flex:focus {
   border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .svg-flex {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.svg-flex:hover,
-.svg-flex:focus {
-  fill: var(--accent-color);
-}
-
-.clients-flex:hover .svg-flex,
-.clients-flex:focus .svg-flex {
-  fill: var(--accent-color);
 }
 
 /* портфолио - кнопки */
@@ -708,10 +699,6 @@ a {
   margin-right: 70px;
 }
 
-/* .join-flex {
-  display: flex;
-} */
-
 .join-margin {
   margin-right: 10px;
 }
@@ -721,6 +708,7 @@ a {
 }
 
 /* geometry styles */
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -739,5 +727,3 @@ a {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
-/* 123 */

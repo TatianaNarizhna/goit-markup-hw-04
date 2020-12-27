@@ -453,6 +453,7 @@ a {
 .clients-icon {
   width: 170px;
   height: 90px;
+
   margin-right: 30px;
 }
 
@@ -465,9 +466,7 @@ a {
   justify-content: center;
   align-items: center;
 
-  width: 170px;
-  height: 90px;
-
+  height: 100%;
   fill: var(--network-color);
   border: 1px solid var(--network-color);
 }
